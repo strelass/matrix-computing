@@ -23,7 +23,7 @@ def main():
     for i, ei in enumerate(x):
         for k, ek in enumerate(y):
             for j, ej in enumerate(z):
-                new = ei + ek + ej - 2*(a[i][k][j])
+                new = ei + ek + ej
                 if _max < new:
                     _max = new
                     _x = i
