@@ -26,9 +26,7 @@ def main():
                 new = ei + ek + ej
                 if _max < new:
                     _max = new
-                    _x = i
-                    _y = k
-                    _z = j
+                    _x, _y, _z = i, k, j
     print(x)
     print(y)
     print(z)
